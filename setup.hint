@@ -1,0 +1,6 @@
+category: X11
+requires: fontconfig mkfontdir mkfontscale font-encodings
+sdesc: "Cantarell TTF sans serif fonts"
+ldesc: "The Cantarell typeface family was designed as a contemporary 
+Humanist sans serif, and was developed for on-screen reading; in 
+particular, reading web pages on a mobile phone."
