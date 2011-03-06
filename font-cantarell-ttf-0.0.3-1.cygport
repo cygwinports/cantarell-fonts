@@ -1,0 +1,19 @@
+ORIG_PN="cantarell-fonts"
+inherit gnome.org font
+
+DESCRIPTION="Cantarell TTF sans serif fonts"
+HOMEPAGE="http://abattis.org/cantarell/"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	insinto /etc/fonts/conf.avail
+	doins fontconfig/*.conf
+
+	fontinto OTF
+	dofont otf/*.otf
+
+#	fontinto TTF
+#	dofont ttf/*.ttf
+}
