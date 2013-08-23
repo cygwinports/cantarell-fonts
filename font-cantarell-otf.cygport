@@ -2,7 +2,7 @@ ORIG_PN="cantarell-fonts"
 inherit gnome.org font
 
 NAME="font-cantarell-otf"
-VERSION=0.0.13
+VERSION=0.0.14
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Cantarell TTF sans serif fonts"
