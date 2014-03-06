@@ -15,9 +15,8 @@ src_compile() { :; }
 
 src_install() {
 	cd ${S}
-	insinto /etc/fonts/conf.d
-	doins fontconfig/*.conf
-
 	fontinto OTF
 	dofont otf/*.otf
+
+	dofontconf fontconfig/*.conf
 }
