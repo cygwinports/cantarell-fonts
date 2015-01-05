@@ -2,7 +2,7 @@ ORIG_PN="cantarell-fonts"
 inherit gnome.org font
 
 NAME="font-cantarell-otf"
-VERSION=0.0.15
+VERSION=0.0.16
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Cantarell TTF sans serif fonts"
@@ -10,6 +10,8 @@ DESCRIPTION="The Cantarell typeface family was designed as a contemporary
 Humanist sans serif, and was developed for on-screen reading; in particular,
 reading web pages on a mobile phone."
 HOMEPAGE="http://abattis.org/cantarell/"
+
+ARCH=noarch
 
 src_compile() { :; }
 
