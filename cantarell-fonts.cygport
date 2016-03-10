@@ -2,7 +2,7 @@ inherit gnome.org font
 
 NAME="cantarell-fonts"
 VERSION=0.0.18.1
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="Cantarell TTF sans serif fonts"
 DESCRIPTION="The Cantarell typeface family was designed as a contemporary
